@@ -1,0 +1,53 @@
+.body-bg
+{
+    background-color: #F7ECDE;
+}
+
+h1
+{
+    font-family: 'Pacifico', cursive;
+    color: #352E28;
+}
+
+hr
+{
+    border: none;
+    border-top: 5px dotted black;
+    
+
+}
+
+.back-cover{
+
+    background-color: #FEC260;
+    height: 20px;
+    width: 20%;
+    transition: 1s;
+    bottom: 20%;
+
+}
+
+h1:hover + .back-cover
+{
+   
+    height: 40px;
+}
+
+.text-color
+{
+    background: linear-gradient(to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red);
+-webkit-background-clip: text;
+color: transparent;
+}
+
+.button-edit
+{
+    width: 13%;
+}
